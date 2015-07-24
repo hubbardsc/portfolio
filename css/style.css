@@ -1,0 +1,70 @@
+.header {
+	border-bottom: solid black 2px;
+	margin-bottom: 30px;
+}
+
+.logo {
+	margin-top: 20px;
+	/*background-color: yellow;*/
+	padding-bottom: -5px;
+	margin-right: -15px;
+}
+
+* {
+	font-family: 'lato', sans-serif;
+	color: #979797 !important; 
+}
+
+.title-super {
+	font-size: 50px;
+}
+
+.title { 
+	text-align: right;
+}
+
+.profile_pic {
+	margin-top: 20px;
+	/*background-color: blue;*/
+	/*padding-left: 40px;*/
+	margin-bottom: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+.name {
+	/*background-color: red;*/
+	text-align: right;
+}
+
+@media print {
+	.container{
+		width: auto;
+	}
+}
+
+@media (max-width: 990px) {
+    .name {
+    	text-align: left;
+    }
+    .title {
+    	text-align: left;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .name {
+    	width: 345px;
+    	margin-left: -10px
+    }
+    .profile_pic {
+    	margin-right: 0px;
+}
+    }
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
